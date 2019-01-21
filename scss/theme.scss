@@ -1,0 +1,333 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+header {
+    background-color: #35424a;
+    border-bottom: 3px solid red;
+
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+
+        .branding {
+            float: left;
+            padding: 15px;
+            text-transform: capitalize;
+
+            span {
+                color: red;
+            }
+
+            h1 {
+               color: #fff;
+            }
+        }
+
+        nav {
+            float: right;
+            padding: 30px 0px 25px 0px;
+            text-transform: uppercase;
+
+            ul {
+                list-style: none;
+                
+                li {
+                    display: inline-block;
+                    padding: 0px 20px 0px 20px;
+                    
+                   a {
+                      text-decoration: none;
+                      color: white;
+
+                   }
+
+                   .current {
+                    color: red;
+                }
+
+                    a:hover {
+                        font-weight: 500;
+                        color: rgb(19, 212, 13);
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+#showcase {
+    background: url(../img/showcase.jpg);
+    background-size: cover;
+    min-height: 350px;
+    background-repeat: no-repeat;
+
+    
+    
+    
+
+    .container {
+        color: #fff;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        overflow: hidden;
+        
+
+        h1 {
+            font-size: 55px;
+            text-transform: capitalize;
+            margin-top: 100px;
+        }
+
+        p {
+            font-size: 20px;
+            
+        }
+    }
+}
+
+#newsletter {
+    background-color: #35424a;
+
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 15px;
+
+
+        h3 {
+            float: left;
+            text-transform: capitalize;
+            color: #fff;
+        }
+
+        form {
+            float: right;
+            
+            
+            input {
+                width: 270px;
+                height: 32px;
+                margin-top: 10px;
+            }
+
+            .button {
+                background-color: orangered;
+                padding: 0px 20px 0px 20px;
+                height: 38px;
+                border: 0;
+                color: #fff;
+            }
+
+            .button:hover {
+                color: black;
+            }
+        }
+    }
+}
+
+#boxes {
+    padding: 30px 0px 30px 0px;
+
+    .container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        overflow: hidden;
+       
+        .box {
+            float: left;
+            text-align: center;
+            width: 30%;
+            padding: 10px;
+
+        }
+
+        img {
+            width: 90px;
+        }
+    }
+}
+
+/*ABOUT page*/
+#main {
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+
+        .main-col {
+           float: left;
+           width: 65%;
+
+            .article2 {
+                background-color: #35424a;
+                color: white;
+                padding: 15px;
+            }
+        }
+
+
+        #aside {
+            float: right;
+            width: 30%;
+
+            .dark {
+                background-color: #35424a;
+                color: white;
+                padding: 15px;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+/*SERVICES page*/
+#services {
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+
+        .boxes{
+            float: left;
+            width: 65%;
+        }
+        .web-services {
+            
+            background-color: #e6e6e6;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            
+        }
+
+        #sidebar {
+            width: 30%;
+            float: right;
+            
+            .dark {
+                background-color: #35424a;
+                padding: 20px 10px 10px 10px;
+                color: white;
+
+
+                .quote input, .quote textarea {
+                    width: 90%;
+                }
+                
+    
+                .button {
+                    background-color: orangered;
+                    height: 27px;
+                    border: 0;
+                    color: white;
+                    padding: 0px 20px 0px 20px;
+                }
+    
+                .button:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+
+}
+
+#footer {
+    padding: 30px 0px 30px 0px;
+    background-color: orangered;
+
+    .container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        
+        p {
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    /*HOME page*/
+    header .container .branding,
+    header .container nav,
+    header .container nav ul
+    #boxes .container .box
+    {
+        
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 0;
+
+    }
+
+    #showcase .container h1 {
+        line-height: 1.5em;
+    }
+
+    #newsletter .container h3,
+    #newsletter .container form
+    {
+        width: 100%;
+        float: none;
+        text-align: center;
+        
+
+        .button, input {
+            width: 100%;
+        }
+
+    }
+
+    #boxes .container .box {
+        float: none;
+        width: 100%;
+    }
+
+    #boxes .container .box img {
+        width: 90px;
+    }
+    /*ABOUT page*/
+    #main .container .main-col,
+    #main .container #aside
+     {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #main .container #aside {
+        padding-bottom: 20px;
+    }
+
+    #main .container #aside .dark {
+        margin: 0;
+    }
+
+
+    .page-title {
+        text-align: center;
+    }
+    /*SERVICES page*/
+    #services .container .boxes,
+    #services .container #sidebar {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #services .container #sidebar {
+        padding-bottom: 20px;
+    }
+  }

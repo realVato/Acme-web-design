@@ -1,0 +1,354 @@
+/* line 1, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* line 9, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header {
+  background-color: #35424a;
+  border-bottom: 3px solid red;
+}
+
+/* line 13, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header .container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* line 18, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header .container .branding {
+  float: left;
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+/* line 23, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header .container .branding span {
+  color: red;
+}
+
+/* line 27, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header .container .branding h1 {
+  color: #fff;
+}
+
+/* line 32, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header .container nav {
+  float: right;
+  padding: 30px 0px 25px 0px;
+  text-transform: uppercase;
+}
+
+/* line 37, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header .container nav ul {
+  list-style: none;
+}
+
+/* line 40, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header .container nav ul li {
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+}
+
+/* line 44, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header .container nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 50, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header .container nav ul li .current {
+  color: red;
+}
+
+/* line 54, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+header .container nav ul li a:hover {
+  font-weight: 500;
+  color: #13d40d;
+}
+
+/* line 65, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#showcase {
+  background: url(../img/showcase.jpg);
+  background-size: cover;
+  min-height: 350px;
+  background-repeat: no-repeat;
+}
+
+/* line 75, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#showcase .container {
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* line 83, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#showcase .container h1 {
+  font-size: 55px;
+  text-transform: capitalize;
+  margin-top: 100px;
+}
+
+/* line 89, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#showcase .container p {
+  font-size: 20px;
+}
+
+/* line 96, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#newsletter {
+  background-color: #35424a;
+}
+
+/* line 99, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#newsletter .container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 15px;
+}
+
+/* line 106, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#newsletter .container h3 {
+  float: left;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+/* line 112, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#newsletter .container form {
+  float: right;
+}
+
+/* line 116, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#newsletter .container form input {
+  width: 270px;
+  height: 32px;
+  margin-top: 10px;
+}
+
+/* line 122, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#newsletter .container form .button {
+  background-color: orangered;
+  padding: 0px 20px 0px 20px;
+  height: 38px;
+  border: 0;
+  color: #fff;
+}
+
+/* line 130, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#newsletter .container form .button:hover {
+  color: black;
+}
+
+/* line 137, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#boxes {
+  padding: 30px 0px 30px 0px;
+}
+
+/* line 140, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#boxes .container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* line 146, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#boxes .container .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+/* line 154, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#boxes .container img {
+  width: 90px;
+}
+
+/*ABOUT page*/
+/* line 162, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#main .container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* line 167, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#main .container .main-col {
+  float: left;
+  width: 65%;
+}
+
+/* line 171, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#main .container .main-col .article2 {
+  background-color: #35424a;
+  color: white;
+  padding: 15px;
+}
+
+/* line 179, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#main .container #aside {
+  float: right;
+  width: 30%;
+}
+
+/* line 183, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#main .container #aside .dark {
+  background-color: #35424a;
+  color: white;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+/*SERVICES page*/
+/* line 195, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#services .container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* line 200, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#services .container .boxes {
+  float: left;
+  width: 65%;
+}
+
+/* line 204, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#services .container .web-services {
+  background-color: #e6e6e6;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 213, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#services .container #sidebar {
+  width: 30%;
+  float: right;
+}
+
+/* line 217, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#services .container #sidebar .dark {
+  background-color: #35424a;
+  padding: 20px 10px 10px 10px;
+  color: white;
+}
+
+/* line 223, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#services .container #sidebar .dark .quote input, #services .container #sidebar .dark .quote textarea {
+  width: 90%;
+}
+
+/* line 228, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#services .container #sidebar .dark .button {
+  background-color: orangered;
+  height: 27px;
+  border: 0;
+  color: white;
+  padding: 0px 20px 0px 20px;
+}
+
+/* line 236, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#services .container #sidebar .dark .button:hover {
+  color: black;
+}
+
+/* line 245, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#footer {
+  padding: 30px 0px 30px 0px;
+  background-color: orangered;
+}
+
+/* line 249, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#footer .container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/* line 254, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+#footer .container p {
+  color: #fff;
+}
+
+@media (max-width: 850px) {
+  /*HOME page*/
+  /* line 262, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  header .container .branding,
+  header .container nav,
+  header .container nav ul
+#boxes .container .box {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding: 0;
+  }
+  /* line 275, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  #showcase .container h1 {
+    line-height: 1.5em;
+  }
+  /* line 279, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  #newsletter .container h3,
+  #newsletter .container form {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  /* line 287, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  #newsletter .container h3 .button, #newsletter .container h3 input,
+  #newsletter .container form .button,
+  #newsletter .container form input {
+    width: 100%;
+  }
+  /* line 293, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  #boxes .container .box {
+    float: none;
+    width: 100%;
+  }
+  /* line 298, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  #boxes .container .box img {
+    width: 90px;
+  }
+  /*ABOUT page*/
+  /* line 302, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  #main .container .main-col,
+  #main .container #aside {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 310, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  #main .container #aside {
+    padding-bottom: 20px;
+  }
+  /* line 314, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  #main .container #aside .dark {
+    margin: 0;
+  }
+  /* line 319, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  .page-title {
+    text-align: center;
+  }
+  /*SERVICES page*/
+  /* line 323, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  #services .container .boxes,
+  #services .container #sidebar {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 330, C:/Users/Santoryu/Desktop/myTraversy/scss/theme.scss */
+  #services .container #sidebar {
+    padding-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=../css/theme.map */
